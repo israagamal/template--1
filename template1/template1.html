@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Template 1</title>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        body{
+            background: #ffffff url(background.gif) top center repeat-y ;
+            color: #404040;
+            font:Verdana,Tahoma,Arial,sans-serif;
+        }
+        section{
+            width: 1000px;
+            margin:auto;
+        }
+        .p1{
+            padding-top: 12px;
+            text-align: right;
+            font-size: 14px;
+            font-family: arial;
+            text-transform: capitalize;
+        }
+        .p1 a {
+            text-decoration: none;
+            color: #4088b8;
+            font-weight: 600;
+            }
+        .p1 a:hover{
+            text-decoration: underline;
+            
+        }
+        h1 a{
+            text-decoration: none;
+            color: #4088b8;
+            font-weight: bold;
+            font-family: arial;
+            letter-spacing:-5px;
+            font-size:2.5em;
+            padding-left:30px;
+        }
+        .c1 {
+            color:#c0c0c0;   
+        }
+        .c2 {
+            color:#4088b8;
+            font-weight: bold;
+        }
+        h1 a:hover{
+            text-decoration:underline; 
+        }
+        .p2{
+        padding-left:35px;
+        font-family: Arial,Verdana,Tahoma,sans-serif;
+        font-size: larger;
+        color: #949494;
+        font-weight:700;
+        line-height: 1.0em;
+    }
+    .con{
+    margin-top: 20px;
+   }
+   .left{
+    float: left;
+    width:20%;
+    /*border-right: solid 1px #d7d7d7;*/
+   }
+   .left .p3 , .right .p3{
+    text-indent: 5px;
+    border-bottom: solid 4px #d7d7d7;
+    margin-right: 20px;
+    color: #4088b8;
+    font-weight: bold;
+    font-family: arial;
+   }
+   .left .p4 ,.right .p4 {
+    margin-top:8px;
+    margin-left:5px;
+    
+   }
+   
+   .right .p4{
+   width:750px;
+   }
+   .left .p4 a {
+    display: inline;
+    margin-left: 0;
+   }
+   .right .p4 a {
+    text-decoration: none;
+    color:#4088b8;
+    font-weight: bold;
+    
+   }
+   ul{
+    list-style: none;
+   }
+   #li{margin-left:20px;
+   font-weight: 100;
+   }
+    .left a {
+    text-decoration: none;
+    color:#4088b8;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+    margin-left: 10px ;
+   }
+   #sp{
+    display: block;
+    font-weight: bold;
+    
+   }
+   .left .p4 a:hover , .left a:hover , .right a:hover{
+    text-decoration: underline;
+   }
+   .right {
+    float: right;
+    padding-left: 20px;
+    width:80%;
+   }
+   .right .pp
+   {
+    text-align: right;
+   }
+   .right .p5 {
+    font-size: 14px;;
+    border:1px hidden gray;
+    background-color: #4088b8;
+    color:white;
+    padding: 5px;
+    margin-top: 20px;
+    letter-spacing: 0px;;
+    
+   }
+   .right img{
+    float: left;
+    margin: 15px;
+    padding: 2px;
+    border: solid 1px #c0c0c0;
+   }
+   footer{
+    margin-bottom: 10px;
+    border-top:solid 5px #c0c0c0;
+    margin-top:5px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: small;
+    font-weight: 100;
+    color:#939393;
+   }
+   footer a{
+    text-decoration: none;
+    color: #808080;
+    font-weight:bold;
+    font-size: small;
+   }
+   footer a:hover{
+    text-decoration: underline;
+   }
+    </style>
+</head>  
+
+<body>
+<section>
+        <div>
+            <p class="p1">skip to:
+            <a href="##">content</a> |
+            <a href="##">navigation</a> |
+            <a href="##">footer</a></p>
+            <h1>
+                <a href="###">1024<span class="c1">px</span></a>
+            </h1>
+            <p class="p2">when 800px just isn't enough...</p>
+        
+        </div>
+        <div class="con">
+            <div class="left">
+                <p class="p3">   Welcome! </p>
+                <p class="p4">
+                    Write a short presentation of yourself or the site right here. This template comes in two variations.<a href="###"> Switch to layout #2!</a>
+                </p>
+                <br>
+                <a href="##"> Switch to 800px! </a>
+                <br>
+                <p class="p3">Pages</p>
+                    <ul style="margin-top:5px;">
+                        <li><a  href="###">Front page</a></li>
+                        <li><a href="###">Gallary</a></li>    
+                        <li><a href="###"> Download </a>
+                            <ul>
+                                <li><a href="###" id="li" > Music </li>
+                                <li><a href="###" id="li"> Pictures </li>
+                            </ul>
+                            </li>
+                        <a href="###">Link archives</a>
+                    </ul>
+                <br>
+                    <p href="###" class=p3>Site news:</p>
+                    <p class="p4"><span id="sp">April 20, 2006</span> Updated to v1.2 - Merged 800px and 1024px into one template package.</p>
+                    <br>
+                    <p class="p4"><span id="sp">March 29, 2006</span> New template designed: 1024px v1.0!</p>
+                    <br><p class="p3">Links</p>
+                <ul style="margin-top:5px;">
+                        <li><a  href="###">Free templates</a></li>
+                        <li><a href="###">WordPress themes</a></li>    
+                        <li><a href="###">Made in jokkmokk </a></li>
+                        <li><a href="###">open webdesign</a></li>
+                        <li><a href="###">OSWD.org</a></li>
+                    </ul>
+            </div>
+
+            <div class="right">
+                <p class="p3"> As simple as it gets... </p>
+                <img src="example.jpg" title="photo" alt="not found"/>
+                <p class="p4">
+                    Welcome to <span class="c2">1024</span> px, a free website template by <a href="###">Andreas Viklund</a>. This is a regular XHTML/CSS template which you can use to build your own website. This template is released as open source web design, which means that you are free to use it for any purpose and in any way you may want to without any obligations or limitations. I kindly ask that you leave the credit text and link (the one that says "Design by Andreas Viklund" in the footer) since that would be a nice way of supporting my work. But the decision is yours, and that freedom is the beauty with open source design...
+                </p>
+                <div style="clear: both"></div>
+                <br>
+                <p class="p3">Blog/CMS theme versions</p>
+                <p class="p4"> Are you looking for a WordPress theme version of this template? Or maybe a version that
+                is ported for Textpattern, Etomite, MODx, Blogger or some other <a href="###">great content management system </a>
+                or blog engine? Then check out my <a href="###"> ports and themes page</a> to see if there are any version available that you can use. If you make a port yourself, please let me know so I can your version to the list.</p>
+                <p class="p4 pp"><a href="###">Example "Read more" link </a>»</p>
+                <p class="p4 p5"><span style="font-weight: bold;">Note:</span> This template is not intended to be advanced or cool in any way.It was based on feedback and
+                requests that I have got from people who use my other templates.I was asked to make a really simple design that
+                was wider than my regular 800px templates,and so I did. Accessibility, good code quality,search engine friendliness
+                and low file size are important features too.</p>
+            </div>
+            
+            </div>
+        <div style="clear: both"> </div>
+        <footer>
+            <div>
+               <a>Contact us</a> |
+               <a>Privacy policy</a> |
+               <a>sitemap </a> |
+               <a>RSS</a> |
+               <a>Back to top</a>
+            </div>
+            <div>
+               <i>&copy;</i> 2006 Your Name |
+               Thanks to <a>Reef Sandals</a> |
+               design by <a>Andrease viklund </a> 
+            </div>
+        </footer>
+         
+</section>
+
+
+</body>
+</html>
